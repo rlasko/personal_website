@@ -1,0 +1,45 @@
+
+body {
+  background: url(../images/illustration7.jpg);
+  background-size: 100%;
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: local;*/
+}
+
+
+#navbar {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+#title {
+    height: 200px;
+    padding-top: 28%;
+    margin-top: -100px;
+}
+
+#title_text {
+  align-items: center;
+  font-size: 85px;
+  margin-bottom: 0;
+}
+
+#subtitle_text {
+  align-items: center;
+  font-size: 23px;
+}
+
+#empty_div {
+  height: 112%;
+}
+
+#about {
+  height: 111%;
+}
+
+.section_title {
+  padding: 50px;
+}
+
+.section_text {
+  font-weight: bold;
+}
