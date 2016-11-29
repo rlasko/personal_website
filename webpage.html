@@ -15,8 +15,8 @@
     <div class="navbar-fixed">
       <nav id="navbar">
         <div class="nav-wrapper">
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#about" class="brown-text text-darken-4">About</a></li>
+          <ul id="nav-mobile" class="right">
+            <li><a href="#terminal" class="brown-text text-darken-4">About</a></li>
             <li><a href="#portfolio_title" class="brown-text text-darken-4">Portfolio</a></li>
             <li><a href="images/Rae_Lasko_Resume.pdf" target="_blank" class="brown-text text-darken-4">Resume</a></li>
           </ul>
@@ -24,136 +24,149 @@
       </nav>
     </div>
 
-    <div class="container">
+    <div class="row" id="landing_row">
       <div id="title" class="row">
-        <div class="col l12">
+        <img id="landing" src="images/landing.jpg"/>
+        <div id="text">
           <h1 id="title_text" class="white-text center-align">Rae Lasko</h1>
           <h5 id="subtitle_text" class="white-text center-align">Engineer. UX Designer. Cognitive Scientist.</h5>
-      </div>
-      </div>
-
-      <div id="empty_div" class="row"></div>
-      <div id="about" class="row"></div>
-
-      <div id="portfolio_title" class="section_title">
-        <h2 id="portfolio_title_text" class="white-text center-align">Portfolio</h2>
-      </div>
-
-      <div class="row portfolio">
-        <div class="row">
-          <div class="col s9 m6">
-            <div class="card medium">
-              <div class="card-image">
-                <img src="images/apple_logo.jpg">
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>Software Engineering Intern: Summer 2016 + Summer 2017</p>
-              </div>
-              <!--  TODO: Make entire card clickable later-->
-              <div class="card-action">
-                <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s9 m6">
-            <div class="card medium">
-              <div class="card-image">
-                <div id="portfolio_image_psych">
-                  <img src="images/psych_app.png">
-                </div>
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>iOS Research Application Built in Swift</p>
-              </div>
-              <!--  TODO: Make entire card clickable later-->
-              <div class="card-action">
-                <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-              </div>
-            </div>
-          </div>
         </div>
-
-        <div class="row">
-          <div class="col s9 m6">
-            <div class="card medium">
-              <div class="card-image">
-                <div id="portfolio_image_Articulab">
-                  <img src="images/Articulab.png">
-                </div>
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>Research in the Cognitive Aspects of Virtual Agents</p>
-              </div>
-              <!--  TODO: Make entire card clickable later-->
-              <div class="card-action">
-                <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s9 m6">
-            <div class="card medium">
-              <div class="card-image">
-                <div id="portfolio_image_web_design">
-                  <img src="images/Web.png">
-                </div>
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>Admissions Process Redesign</p>
-              </div>
-              <!--  TODO: Make entire card clickable later-->
-              <div class="card-action">
-                <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col s9 m6">
-            <div class="card medium">
-              <div class="card-image">
-                <div id="portfolio_image_CMC">
-                  <img src="images/CMC.png">
-                </div>
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>Research in the Cognitive Aspects of Virtual Agents</p>
-              </div>
-              <!--  TODO: Make entire card clickable later-->
-              <div class="card-action">
-                <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s9 m6">
-            <div class="card medium">
-              <div class="card-image">
-                <div id="portfolio_image_mobile_design">
-                  <img src="images/IDS_Mobile.png">
-                </div>
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>Admissions Process Redesign</p>
-              </div>
-              <!--  TODO: Make entire card clickable later-->
-              <div class="card-action">
-                <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
+      </div>
     </div>
-    </div>
+
+    <div id="background" class="row">
+      <div class="container" id="container_body">
+        <div class="row about center-align">
+          <div class="row">
+            <div id="about_title" class="section_title">
+              <h2 id="about_title_text" class="white-text center-align">About</h2>
+            </div>
+          </div>
+          <img id="terminal" src="images/Terminal.png" alt="About"/>
+        </div>
+
+        <div class="row">
+          <div id="portfolio_title" class="section_title">
+            <h2 id="portfolio_title_text" class="white-text center-align">Portfolio</h2>
+          </div>
+        </div>
+
+        <div class="row portfolio">
+          <div class="row">
+            <div class="col s9 m6">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="images/apple_logo.jpg">
+                  <span class="card-title"></span>
+                </div>
+                <div class="card-content">
+                  <p>Software Engineering Intern: Summer 2016 + Summer 2017</p>
+                </div>
+                <!--  TODO: Make entire card clickable later-->
+                <div class="card-action">
+                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s9 m6">
+              <div class="card medium">
+                <div class="card-image">
+                  <div id="portfolio_image_psych">
+                    <img src="images/psych_app.png">
+                  </div>
+                  <span class="card-title"></span>
+                </div>
+                <div class="card-content">
+                  <p>iOS Research Application Built in Swift</p>
+                </div>
+                <!--  TODO: Make entire card clickable later-->
+                <div class="card-action">
+                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s9 m6">
+              <div class="card medium">
+                <div class="card-image">
+                  <div id="portfolio_image_Articulab">
+                    <img src="images/Articulab.png">
+                  </div>
+                  <span class="card-title"></span>
+                </div>
+                <div class="card-content">
+                  <p>Research in the Cognitive Aspects of Virtual Agents</p>
+                </div>
+                <!--  TODO: Make entire card clickable later-->
+                <div class="card-action">
+                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s9 m6">
+              <div class="card medium">
+                <div class="card-image">
+                  <div id="portfolio_image_web_design">
+                    <img src="images/Web.png">
+                  </div>
+                  <span class="card-title"></span>
+                </div>
+                <div class="card-content">
+                  <p>Admissions Process Redesign</p>
+                </div>
+                <!--  TODO: Make entire card clickable later-->
+                <div class="card-action">
+                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s9 m6">
+              <div class="card medium">
+                <div class="card-image">
+                  <div id="portfolio_image_CMC">
+                    <img src="images/CMC.png">
+                  </div>
+                  <span class="card-title"></span>
+                </div>
+                <div class="card-content">
+                  <p>Research in the Cognitive Aspects of Virtual Agents</p>
+                </div>
+                <!--  TODO: Make entire card clickable later-->
+                <div class="card-action">
+                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s9 m6">
+              <div class="card medium">
+                <div class="card-image">
+                  <div id="portfolio_image_mobile_design">
+                    <img src="images/IDS_Mobile.png">
+                  </div>
+                  <span class="card-title"></span>
+                </div>
+                <div class="card-content">
+                  <p>Admissions Process Redesign</p>
+                </div>
+                <!--  TODO: Make entire card clickable later-->
+                <div class="card-action">
+                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      </div>
+  </div>
 
   </body>
 </html>
