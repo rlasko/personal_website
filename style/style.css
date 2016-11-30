@@ -1,8 +1,5 @@
-
-body {
-  /*background: url(../images/illustration7.jpg);*/
-  background-size: 100%;
-  background-repeat: no-repeat;
+h7 {
+  font-size: 12px;
 }
 
 #landing {
@@ -10,6 +7,7 @@ body {
   position: relative;;
   top: 0;
   left: 0;
+  margin-top: -65px;
 }
 
 #landing_row {
@@ -18,7 +16,7 @@ body {
 }
 
 #portfolio_title {
-  padding-top: 20%;
+  padding-top: 8%;
 }
 
 #text {
@@ -36,6 +34,7 @@ body {
   background: url(../images/texture.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+  margin-bottom: -20px;
 }
 
 #navbar {
@@ -55,18 +54,39 @@ body {
 
 #terminal {
   z-index: 10000;
-  height: 75%;
+  height: 72vh;
   max-width: 90%;
 }
 
 #about {
-  padding-bottom: 60%;
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
+#portfolio_title_text {
+  padding-top: 70px;
 }
 
 .section_title {
-  padding: 50px;
+  padding: 10px;
 }
 
 .section_text {
   font-weight: bold;
+}
+
+.portfolio_image {
+  width: 90%;
+  padding: 10px;
+}
+
+.portfolio_row {
+  padding-bottom: 5%;
+}
+
+.my_card {
+  border-radius: 3px;
+  background-color: white;
+  height: 45%;
+  box-shadow: 10px;
 }

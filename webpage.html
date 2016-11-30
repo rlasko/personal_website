@@ -16,8 +16,8 @@
       <nav id="navbar">
         <div class="nav-wrapper">
           <ul id="nav-mobile" class="right">
-            <li><a href="#terminal" class="brown-text text-darken-4">About</a></li>
-            <li><a href="#portfolio_title" class="brown-text text-darken-4">Portfolio</a></li>
+            <li><a href="#about" class="brown-text text-darken-4">About</a></li>
+            <li><a href="#portfolio_title_text" class="brown-text text-darken-4">Portfolio</a></li>
             <li><a href="images/Rae_Lasko_Resume.pdf" target="_blank" class="brown-text text-darken-4">Resume</a></li>
           </ul>
         </div>
@@ -37,7 +37,7 @@
     <div id="background" class="row">
       <div class="container" id="container_body">
         <div class="row about center-align">
-          <div class="row">
+          <div class="row" id="about">
             <div id="about_title" class="section_title">
               <h2 id="about_title_text" class="white-text center-align">About</h2>
             </div>
@@ -51,122 +51,82 @@
           </div>
         </div>
 
-        <div class="row portfolio">
-          <div class="row">
-            <div class="col s9 m6">
-              <div class="card medium">
-                <div class="card-image">
-                  <img src="images/apple_logo.jpg">
-                  <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                  <p>Software Engineering Intern: Summer 2016 + Summer 2017</p>
-                </div>
-                <!--  TODO: Make entire card clickable later-->
-                <div class="card-action">
-                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s9 m6">
-              <div class="card medium">
-                <div class="card-image">
-                  <div id="portfolio_image_psych">
-                    <img src="images/psych_app.png">
-                  </div>
-                  <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                  <p>iOS Research Application Built in Swift</p>
-                </div>
-                <!--  TODO: Make entire card clickable later-->
-                <div class="card-action">
-                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+        <div class="row portfolio_row">
+          <div class="col l5 my_card center-align">
+            <img src="images/apple_siri.png" class="portfolio_image">
+            <div class="caption">
+            <h6>Siri Software Engineering Intern:</h6>
+            <h7>Summer 2017</h7>
           </div>
-
-          <div class="row">
-            <div class="col s9 m6">
-              <div class="card medium">
-                <div class="card-image">
-                  <div id="portfolio_image_Articulab">
-                    <img src="images/Articulab.png">
-                  </div>
-                  <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                  <p>Research in the Cognitive Aspects of Virtual Agents</p>
-                </div>
-                <!--  TODO: Make entire card clickable later-->
-                <div class="card-action">
-                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s9 m6">
-              <div class="card medium">
-                <div class="card-image">
-                  <div id="portfolio_image_web_design">
-                    <img src="images/Web.png">
-                  </div>
-                  <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                  <p>Admissions Process Redesign</p>
-                </div>
-                <!--  TODO: Make entire card clickable later-->
-                <div class="card-action">
-                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-                </div>
-              </div>
-            </div>
           </div>
-
-          <div class="row">
-            <div class="col s9 m6">
-              <div class="card medium">
-                <div class="card-image">
-                  <div id="portfolio_image_CMC">
-                    <img src="images/CMC.png">
-                  </div>
-                  <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                  <p>Research in the Cognitive Aspects of Virtual Agents</p>
-                </div>
-                <!--  TODO: Make entire card clickable later-->
-                <div class="card-action">
-                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s9 m6">
-              <div class="card medium">
-                <div class="card-image">
-                  <div id="portfolio_image_mobile_design">
-                    <img src="images/IDS_Mobile.png">
-                  </div>
-                  <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                  <p>Admissions Process Redesign</p>
-                </div>
-                <!--  TODO: Make entire card clickable later-->
-                <div class="card-action">
-                  <a href="#" class="section_text blue-text text-darken-2">More Info</a>
-                </div>
-              </div>
-            </div>
+          <div class="col l2"><br></div>
+          <div class="col l5 my_card center-align">
+            <img src="images/apple_notes.png" class="portfolio_image">
+            <div class="caption">
+            <h6>Notes Software Engineering Intern:</h6>
+            <h7>Summer 2016</h7>
           </div>
+          </div>
+        </div>
 
+        <div class="row portfolio_row">
+          <div class="col l5 my_card center-align">
+            <img src="images/Articulab.png" class="portfolio_image">
+            <div class="caption">
+            <h6>Human-Computer Interaction Research</h6>
+            <h7>Virtual Agents, Rapport, and Personalized Learning</h7>
+          </div>
+          </div>
+          <div class="col l2"><br></div>
+          <div class="col l5 my_card center-align">
+            <img src="images/Web.png" class="portfolio_image">
+            <div class="caption">
+            <h6>Responsive Website Design Project</h6>
+            <h7>Admission Information Management Resdesign</h7>
+          </div>
+          </div>
+        </div>
+
+        <div class="row portfolio_row">
+          <div class="col l5 my_card center-align">
+            <img src="images/112.png" class="portfolio_image">
+            <div class="caption">
+            <h6>Photo Manipulator Built in Python and Kivy</h6>
+            <h7>Intro to Programming Term Project</h7>
+          </div>
+          </div>
+          <div class="col l2"><br></div>
+          <div class="col l5 my_card center-align">
+            <img src="images/CMC.png" class="portfolio_image">
+            <div class="caption">
+            <h6>Claremont McKenna Decision Neuroscience Lab</h6>
+            <h7>Studied decision making relating to diet</h7>
+          </div>
+          </div>
+        </div>
+
+        <div class="row portfolio_row">
+          <div class="col l5 my_card center-align">
+            <img src="images/IDS_mobile.png" class="portfolio_image">
+            <div class="caption">
+            <h6>Mobile Web Design</h6>
+            <h7>Created conceptua solution through user research</h7>
+          </div>
+          </div>
+          <div class="col l2"><br></div>
+          <div class="col l5 my_card center-align">
+            <img src="images/psych_app.png" class="portfolio_image">
+            <div class="caption">
+            <h6>iOS Research App for Psychology Experiment</h6>
+            <h7>Designed custom application in Swift to meet project needs</h7>
+          </div>
+          </div>
+        </div>
       </div>
-      </div>
-  </div>
+
+    </div>
+    </div>
 
   </body>
 </html>
