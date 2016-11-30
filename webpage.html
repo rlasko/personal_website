@@ -6,12 +6,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <link rel="stylesheet" href="style/style.css">
-    <script src="Javascript/script.js"></script>
   </head>
   <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-
+    <script src="Javascript/script.js"></script>
     <div class="navbar-fixed">
       <nav id="navbar">
         <div class="nav-wrapper">
@@ -42,7 +41,7 @@
               <h2 id="about_title_text" class="white-text center-align">About</h2>
             </div>
           </div>
-          <img id="terminal" src="images/Terminal.png" alt="About"/>
+          <img class="z-depth-5" id="terminal" src="images/Terminal.png" alt="About"/>
         </div>
 
         <div class="row">
@@ -53,75 +52,121 @@
 
       <div class="row">
         <div class="row portfolio_row">
-          <div class="col l5 my_card center-align">
-            <img src="images/apple_siri.png" class="portfolio_image">
-            <div class="caption">
-            <h6>Siri Software Engineering Intern:</h6>
-            <h7>Summer 2017</h7>
-          </div>
-          </div>
+          <a href="#Siri_modal" class="modal-trigger">
+            <div class="col l5 m8 z-depth-4 my_card center-align">
+              <img src="images/apple_siri.png" class="portfolio_image">
+              <div class="caption">
+                <h6>Siri Software Engineering Intern:</h6>
+                <h7>Summer 2017</h7>
+              </div>
+            </div>
+          </a>
           <div class="col l2"><br></div>
-          <div class="col l5 my_card center-align">
-            <img src="images/apple_notes.png" class="portfolio_image">
-            <div class="caption">
-            <h6>Notes Software Engineering Intern:</h6>
-            <h7>Summer 2016</h7>
-          </div>
-          </div>
+            <a href="#notes_modal" class="modal-trigger">
+              <div class="col l5 m8 z-depth-4 my_card center-align">
+                <img src="images/apple_notes.png" class="portfolio_image">
+                <div class="caption">
+                  <h6>Notes Software Engineering Intern:</h6>
+                  <h7>Summer 2016</h7>
+                </div>
+              </div>
+            </a>
         </div>
 
         <div class="row portfolio_row">
-          <div class="col l5 my_card center-align">
+          <div class="col l5 m8 z-depth-4 my_card center-align">
             <img src="images/Articulab.png" class="portfolio_image">
             <div class="caption">
-            <h6>Human-Computer Interaction Research</h6>
-            <h7>Virtual Agents, Rapport, and Personalized Learning</h7>
-          </div>
+              <h6>Human-Computer Interaction Research</h6>
+              <h7>Virtual Agents, Rapport, and Personalized Learning</h7>
+            </div>
           </div>
           <div class="col l2"><br></div>
-          <div class="col l5 my_card center-align">
-            <img src="images/Web.png" class="portfolio_image">
-            <div class="caption">
-            <h6>Responsive Website Design Project</h6>
-            <h7>Admission Information Management Resdesign</h7>
-          </div>
-          </div>
+            <div class="col l5 m8 z-depth-4 my_card center-align">
+              <img src="images/Web.png" class="portfolio_image">
+              <div class="caption">
+                <h6>Responsive Website Design Project</h6>
+                <h7>Admission Information Management Resdesign</h7>
+              </div>
+            </div>
         </div>
 
         <div class="row portfolio_row">
-          <div class="col l5 my_card center-align">
+          <div class="col l5 m8 z-depth-4 my_card center-align">
             <img src="images/112.png" class="portfolio_image">
             <div class="caption">
-            <h6>Photo Manipulator Built in Python and Kivy</h6>
-            <h7>Intro to Programming Term Project</h7>
-          </div>
+              <h6>Photo Manipulator Built in Python and Kivy</h6>
+              <h7>Intro to Programming Term Project</h7>
+            </div>
           </div>
           <div class="col l2"><br></div>
-          <div class="col l5 my_card center-align">
-            <img src="images/CMC.png" class="portfolio_image">
-            <div class="caption">
-            <h6>Claremont McKenna Decision Neuroscience Lab</h6>
-            <h7>Studied decision making relating to diet</h7>
-          </div>
-          </div>
+            <div class="col l5 m8 z-depth-4 my_card center-align">
+              <img src="images/CMC.png" class="portfolio_image">
+              <div class="caption">
+                <h6>Claremont McKenna Decision Neuroscience Lab</h6>
+                <h7>Studied decision making relating to diet</h7>
+              </div>
+            </div>
         </div>
 
         <div class="row portfolio_row">
-          <div class="col l5 my_card center-align">
+          <div class="col l5 m8 z-depth-4 my_card center-align">
             <img src="images/IDS_mobile.png" class="portfolio_image">
             <div class="caption">
-            <h6>Mobile Web Design</h6>
-            <h7>Created conceptua solution through user research</h7>
-          </div>
+              <h6>Mobile Web Design</h6>
+              <h7>Created conceptua solution through user research</h7>
+            </div>
           </div>
           <div class="col l2"><br></div>
-          <div class="col l5 my_card center-align">
-            <img src="images/psych_app.png" class="portfolio_image">
-            <div class="caption">
-            <h6>iOS Research App for Psychology Experiment</h6>
-            <h7>Designed custom application in Swift to meet project needs</h7>
+            <div class="col l5 m8 z-depth-4 my_card center-align">
+              <img src="images/psych_app.png" class="portfolio_image">
+              <div class="caption">
+                <h6>iOS Research App for Psychology Experiment</h6>
+                <h7>Designed custom application in Swift to meet project needs</h7>
+              </div>
           </div>
+        </div>
+      </div>
+
+      <div id="Siri_modal" class="modal">
+        <div class="modal-content">
+          <h4>Siri Backend Engineer</h4>
+          <div class="row">
+            <div class="col l6 valign-wrapper">
+              <img class="modal_image_large valign" src="images/apple_siri.png">
+            </div>
+            <div class="l3"><br><br></div>
+            <div class="l5 valign-wrapper modal_text">
+              <p class="valign">Working with the Siri Domains Home Automation team to
+              define appropriate responses for ambiguous user intents from a
+              cognitive and human-centric perspective. Will finish by implementing
+              the solution.</p>
+            </div>
           </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="notes_modal" class="modal">
+        <div class="modal-content">
+          <h4>Notes Software Engineering Intern</h4>
+          <div class="row">
+            <div class="col l6 valign-wrapper">
+              <img class="modal_image_large valign" src="images/apple_notes.png">
+            </div>
+            <div class="l3"><br><br></div>
+            <div class="l5 valign-wrapper modal_text">
+              <p class="valign">Worked closely with full time engineers to
+              design a feature as a solution for an open ended problem. Conducted
+              extensive research to finalize solution and implement final iteration.
+              Used Objective-C to work on iOS and MacOS.</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
         </div>
       </div>
 

@@ -67,6 +67,14 @@ h7 {
   padding-top: 70px;
 }
 
+.modal_image_large {
+  width: 100%;
+}
+
+.modal_text {
+  padding-left: 15px;
+}
+
 .section_title {
   padding: 10px;
 }
